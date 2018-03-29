@@ -1,0 +1,22 @@
+{
+  "author": "Thomas Ingram",
+  "name": "eslint-config-bespoke",
+  "version": "0.1.0",
+  "description": "Linting configuration so I don't have to keep remembering all these rules for each new project",
+  "license": "ISC",
+  "main": "index.json",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.9.0"
+  },
+  "peerDependencies": {
+    "eslint": "4.x.x"
+  }
+}
