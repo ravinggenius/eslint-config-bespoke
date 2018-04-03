@@ -4,6 +4,9 @@
   },
 
   "parserOptions": {
+    "ecmaFeatures": {
+      "impliedStrict": true
+    },
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
@@ -36,7 +39,9 @@
 
     "linebreak-style": [ "error", "unix" ],
 
-    "max-len": [ "warn" ],
+    "max-len": [ "warn", {
+      "tabWidth": 4
+    } ],
 
     "no-else-return": [ "off" ],
 
