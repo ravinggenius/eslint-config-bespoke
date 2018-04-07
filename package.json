@@ -9,6 +9,14 @@
     "eslint",
     "eslint-config"
   ],
+  "homepage": "https://github.com/ravinggenius/eslint-config-bespoke",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravinggenius/eslint-config-bespoke.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ravinggenius/eslint-config-bespoke/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
