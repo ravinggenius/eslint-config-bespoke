@@ -4,7 +4,7 @@
   "version": "0.3.1",
   "description": "Linting configuration so I don't have to keep remembering all these rules for each new project",
   "license": "ISC",
-  "main": "index.json",
+  "main": "index.js",
   "keywords": [
     "eslint",
     "eslint-config"
