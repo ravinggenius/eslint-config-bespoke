@@ -22,10 +22,12 @@
   },
   "dependencies": {
     "eslint": "^5.x.x",
-    "eslint-plugin-import": "^2.x.x"
+    "eslint-plugin-import": "^2.x.x",
+    "eslint-plugin-simple-import-sort": "^3.x.x"
   },
   "peerDependencies": {
     "eslint": "5.x.x",
-    "eslint-plugin-import": "2.x.x"
+    "eslint-plugin-import": "2.x.x",
+    "eslint-plugin-simple-import-sort": "^3.x.x"
   }
 }

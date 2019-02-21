@@ -13,6 +13,7 @@ module.export = {
 
 	"extends": [
 		"eslint:recommended",
+		"plugin:simple-import-sort",
 		"plugin:import/errors",
 		"plugin:import/warnings"
 	],
@@ -26,16 +27,7 @@ module.export = {
 
 		"indent": ["error", "tab"],
 
-		"import/order": ["error", {
-			"groups": [
-				["builtin", "external"],
-				"internal",
-				"parent",
-				"sibling",
-				"index"
-			],
-			"newlines-between": "always-and-inside-groups"
-		}],
+		"import/order": ["off"],
 
 		"linebreak-style": ["error", "unix"],
 
@@ -57,6 +49,10 @@ module.export = {
 
 		"quotes": ["error", "single"],
 
-		"semi": ["error", "always"]
+		"semi": ["error", "always"],
+
+		"simple-import-sort/sort": ["error"],
+
+		"sort-imports": ["off"]
 	}
 };
