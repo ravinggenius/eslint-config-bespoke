@@ -1,7 +1,7 @@
 {
   "author": "Thomas Ingram",
   "name": "eslint-config-bespoke",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Linting configuration so I don't have to keep remembering all these rules for each new project",
   "license": "ISC",
   "main": "index.js",
